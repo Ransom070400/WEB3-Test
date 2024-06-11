@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-image {
+  width: 50%; /* Adjust this depending on the size of your image */
+}
+
+.facility {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bedroom {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.bedroom h2 {
+  margin-top: 0;
+}
+
+.bedroom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bedroom li {
+  margin-bottom: 10px;
+}
+
+#shuffle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#shuffle-button:hover {
+  background-color: #3e8e41;
+}
